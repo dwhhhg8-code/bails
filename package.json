@@ -1,9 +1,9 @@
 {
-  "name": "Baileys",
-  "version": "1.0.0",
-  "description": "Baileys modificada",
+  "name": "@whiskeysockets/baileys",
+  "version": "6.7.24",
+  "description": "Baileys modificada (multi-device WhatsApp library) — used by Rin-Itoshi-Bot",
   "main": "lib/index.js",
-  "author": "Carlos",
+  "author": "Carlos / shadow",
   "license": "MIT",
   "scripts": {
     "start": "node lib/index.js"
@@ -29,10 +29,7 @@
     "sharp": "^0.34.5",
     "ws": "^8.20.0"
   },
-  "overrides": {
-    "protobufjs": "^8.0.1"
-  },
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=20.0.0"
   }
 }
